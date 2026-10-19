@@ -1,0 +1,22 @@
+{
+  "name": "hexstore",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HEX STORE - ร้านค้าออนไลน์ พร้อมระบบสมาชิก เติมเงิน และหลังบ้าน",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "create-admin": "node scripts/create-admin.js",
+    "test": "node scripts/test.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.0",
+    "express": "^5.0.0",
+    "express-rate-limit": "^8.0.0",
+    "helmet": "^8.0.0",
+    "multer": "^2.0.0"
+  }
+}
