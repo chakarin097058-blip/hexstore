@@ -10,7 +10,7 @@
     "test": "node scripts/test.js"
   },
   "engines": {
-    "node": ">=22.13"
+    "node": ">=26"
   },
   "dependencies": {
     "bcryptjs": "^3.0.0",
